@@ -1,0 +1,14 @@
+node_modules/
+dist/
+*.tgz
+.DS_Store
+.env
+.env.*
+!.env.example
+npm-debug.log*
+.npmrc
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+coverage/
+.nyc_output/

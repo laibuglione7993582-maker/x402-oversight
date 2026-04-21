@@ -1,0 +1,53 @@
+{
+  "name": "x402-oversight",
+  "version": "0.1.0",
+  "description": "Oversight and governance wrapper for x402 payments — spend caps, transaction logs, and anomaly detection for AI agent micro-transactions.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "x402",
+    "payments",
+    "agents",
+    "oversight",
+    "governance",
+    "budget",
+    "audit",
+    "fetch",
+    "sdk"
+  ],
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://github.com/laibuglione7993582-maker/x402-oversight#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laibuglione7993582-maker/x402-oversight.git"
+  },
+  "bugs": {
+    "url": "https://github.com/laibuglione7993582-maker/x402-oversight/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
+  }
+}
